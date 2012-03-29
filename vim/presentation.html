@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>VIM For Python</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///usr/local/lib/python2.7/dist-packages/landslide-1.0.1-py2.7.egg/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///usr/local/lib/python2.7/dist-packages/landslide-1.0.1-py2.7.egg/landslide/themes/default/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///usr/local/lib/python2.7/dist-packages/landslide-1.0.1-py2.7.egg/landslide/themes/default/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VIM For Python</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Basics</h2></header>
+            
+            
+            <section><h2>Mode:</h2>
+<p>Normal/Insert/Visual</p>
+<h2>Motion:</h2>
+<ul>
+<li>h j k l w b</li>
+<li>until(t)</li>
+<li>mark(m,`,')</li>
+<li>...</li>
+</ul>
+<h2>Command:</h2>
+<p>verb + noun</p>
+<ul>
+<li>c r i o a</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Cheetsheet</h2></header>
+            
+            
+            <section><p>Here is a </p>
+<p><a href="vi-vim-cheat-sheet.gif">Cheetsheet</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Auto complete</h2></header>
+            
+            
+            <section><ul>
+<li>c-x c-o</li>
+<li>c-x c-n</li>
+<li>c-x c-p</li>
+<li>c-x c-l</li>
+<li>c-p</li>
+<li>c-n</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>For Python</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Settings</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Basic Settings:</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno"> 1</span> <span class="k">set</span> <span class="nb">nocp</span>
+<span class="lineno"> 2</span> <span class="k">filetype</span> plugin <span class="k">on</span>
+<span class="lineno"> 3</span> <span class="k">filetype</span> indent <span class="k">on</span>
+<span class="lineno"> 4</span> <span class="k">set</span> <span class="nb">hls</span> <span class="k">number</span>
+<span class="lineno"> 5</span> <span class="k">set</span> <span class="nb">backspace</span><span class="p">=</span><span class="nb">eol</span><span class="p">,</span><span class="k">start</span><span class="p">,</span>indent
+<span class="lineno"> 6</span> <span class="k">set</span> <span class="nb">fileformats</span><span class="p">=</span>unix<span class="p">,</span>dos
+<span class="lineno"> 7</span> <span class="k">set</span> <span class="nb">scrolloff</span><span class="p">=</span><span class="m">3</span>
+<span class="lineno"> 8</span> <span class="k">set</span> <span class="nb">incsearch</span>
+<span class="lineno"> 9</span> <span class="k">colorscheme</span> blackbeauty
+<span class="lineno">10</span> <span class="nb">syntax</span> <span class="k">on</span>
+<span class="lineno">11</span> <span class="k">set</span> <span class="nb">mouse</span> <span class="p">=</span><span class="k">n</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Indent:</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno">1</span> <span class="k">set</span> <span class="nb">smartindent</span>
+<span class="lineno">2</span> <span class="k">set</span> <span class="nb">autoindent</span>
+<span class="lineno">3</span> <span class="k">set</span> <span class="nb">tabstop</span><span class="p">=</span><span class="m">4</span> <span class="nb">expandtab</span> <span class="nb">shiftwidth</span><span class="p">=</span><span class="m">4</span> <span class="nb">softtabstop</span><span class="p">=</span><span class="m">4</span> 
+<span class="lineno">4</span> <span class="k">set</span> <span class="nb">colorcolumn</span><span class="p">=</span><span class="m">79</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Useful mapping:</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno">1</span> map <span class="p">&lt;</span>C<span class="p">-</span>J<span class="p">&gt;</span> <span class="p">&lt;</span>C<span class="p">-</span>W<span class="p">&gt;</span><span class="k">j</span>
+<span class="lineno">2</span> map <span class="p">&lt;</span>C<span class="p">-</span>K<span class="p">&gt;</span> <span class="p">&lt;</span>C<span class="p">-</span>W<span class="p">&gt;</span><span class="k">k</span>
+<span class="lineno">3</span> map <span class="p">&lt;</span>C<span class="p">-</span><span class="k">l</span><span class="p">&gt;</span> <span class="p">&lt;</span>C<span class="p">-</span>W<span class="p">&gt;</span><span class="k">l</span>
+<span class="lineno">4</span> map <span class="p">&lt;</span>C<span class="p">-</span><span class="k">h</span><span class="p">&gt;</span> <span class="p">&lt;</span>C<span class="p">-</span>W<span class="p">&gt;</span><span class="k">h</span>
+<span class="lineno">5</span> nmap <span class="p">&lt;</span>leader<span class="p">&gt;</span>z :%<span class="k">s</span>#\<span class="p">&lt;&lt;</span><span class="k">c</span><span class="p">-</span><span class="k">r</span><span class="p">&gt;=</span>expand<span class="p">(</span><span class="s2">&quot;&lt;cword&gt;&quot;</span><span class="p">)&lt;</span><span class="k">cr</span><span class="p">&gt;</span>\<span class="p">&gt;</span>#
+<span class="lineno">6</span> <span class="nb">vnoremap</span> <span class="p">&lt;</span>C<span class="p">-</span><span class="k">r</span><span class="p">&gt;</span> <span class="c">&quot;hy:%s/&lt;C-r&gt;h//gc&lt;left&gt;&lt;left&gt;&lt;left&gt;</span>
+</pre></div>
+
+<h2>Useful command:</h2>
+<div class="highlight"><pre><span class="lineno">1</span> autocmd <span class="nb">FileType</span> python <span class="k">set</span> <span class="nb">makeprg</span><span class="p">=</span>
+<span class="lineno">2</span>     pylint\ <span class="p">--</span>reports<span class="p">=</span><span class="k">n</span>\ <span class="p">--</span>output<span class="p">-</span>format<span class="p">=</span>parseable\ 
+<span class="lineno">3</span>     <span class="p">--</span>disable<span class="p">=</span>E1101<span class="p">,</span>W0611<span class="p">,</span>W0614<span class="p">,</span>R0401<span class="p">,</span>C0103<span class="p">,</span>C0322<span class="p">,</span>C0111<span class="p">,</span>
+<span class="lineno">4</span>     C0324<span class="p">,</span>C0301<span class="p">,</span>W0142<span class="p">,</span>R0913<span class="p">,</span>W0622<span class="p">,</span>C0323\ %:<span class="k">p</span>
+<span class="lineno">5</span> 
+<span class="lineno">6</span> autocmd <span class="nb">FileType</span> python <span class="k">set</span> <span class="nb">errorformat</span><span class="p">=</span>%<span class="k">f</span>:%<span class="k">l</span>:\ %<span class="k">m</span>
+</pre></div>
+
+<h2>Now copen</h2></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Define Function</h2></header>
+            
+            
+            <section><p>[<code>!</code>] Quietly replace existing function .</p>
+<div class="highlight"><pre><span class="lineno"> 1</span> <span class="k">function</span><span class="p">!</span> CmdLine<span class="p">(</span>str<span class="p">)</span>
+<span class="lineno"> 2</span>     exe <span class="s2">&quot;menu Foo.Bar :&quot;</span> . <span class="k">a</span>:str
+<span class="lineno"> 3</span>     <span class="k">emenu</span> Foo.Bar
+<span class="lineno"> 4</span>     unmenu Foo
+<span class="lineno"> 5</span> <span class="k">endfunction</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span> <span class="c">&quot; From an idea by Michael Naumann</span>
+<span class="lineno"> 8</span> <span class="k">function</span><span class="p">!</span> VisualSearch<span class="p">(</span>direction<span class="p">)</span> range
+<span class="lineno"> 9</span>     <span class="k">let</span> <span class="k">l</span>:saved_reg <span class="p">=</span> @&quot;
+<span class="lineno">10</span>     execute <span class="s2">&quot;normal! vgvy&quot;</span>
+<span class="lineno">11</span> 
+<span class="lineno">12</span>     <span class="k">let</span> <span class="k">l</span>:pattern <span class="p">=</span> escape<span class="p">(</span>@&quot;<span class="p">,</span> <span class="s1">&#39;\\/.*$^~[]&#39;</span><span class="p">)</span>
+<span class="lineno">13</span>     <span class="k">let</span> <span class="k">l</span>:pattern <span class="p">=</span> substitute<span class="p">(</span><span class="k">l</span>:pattern<span class="p">,</span> <span class="s2">&quot;\n$&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+<span class="lineno">14</span> 
+<span class="lineno">15</span>     <span class="k">if</span> <span class="k">a</span>:direction <span class="p">==</span> <span class="s1">&#39;b&#39;</span>
+<span class="lineno">16</span>         execute <span class="s2">&quot;normal ?&quot;</span> . <span class="k">l</span>:pattern . <span class="s2">&quot;^M&quot;</span>
+<span class="lineno">17</span>     <span class="k">elseif</span> <span class="k">a</span>:direction <span class="p">==</span> <span class="s1">&#39;gv&#39;</span>
+<span class="lineno">18</span>         <span class="k">call</span> CmdLine<span class="p">(</span><span class="s2">&quot;vimgrep &quot;</span> . <span class="s1">&#39;/&#39;</span>. <span class="k">l</span>:pattern . <span class="s1">&#39;/&#39;</span> . <span class="s1">&#39; **/*.&#39;</span><span class="p">)</span>
+<span class="lineno">19</span>     <span class="k">elseif</span> <span class="k">a</span>:direction <span class="p">==</span> <span class="s1">&#39;f&#39;</span>
+<span class="lineno">20</span>         execute <span class="s2">&quot;normal /&quot;</span> . <span class="k">l</span>:pattern . <span class="s2">&quot;^M&quot;</span>
+<span class="lineno">21</span>     <span class="k">endif</span>
+<span class="lineno">22</span> 
+<span class="lineno">23</span>     <span class="k">let</span> @/ <span class="p">=</span> <span class="k">l</span>:pattern
+<span class="lineno">24</span>     <span class="k">let</span> @&quot; <span class="p">=</span> <span class="k">l</span>:saved_reg
+<span class="lineno">25</span> <span class="k">endfunction</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Call Function</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno">1</span> <span class="c">&quot;  In visual mode when you press * or # to search for the current selection</span>
+<span class="lineno">2</span> <span class="nb">vnoremap</span> <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span> * :<span class="k">call</span> VisualSearch<span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">)&lt;</span>CR<span class="p">&gt;</span>
+<span class="lineno">3</span> <span class="nb">vnoremap</span> <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span> # :<span class="k">call</span> VisualSearch<span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">)&lt;</span>CR<span class="p">&gt;</span>
+<span class="lineno">4</span> 
+<span class="lineno">5</span> <span class="c">&quot; When you press gv you vimgrep after the selected text</span>
+<span class="lineno">6</span> <span class="nb">vnoremap</span> <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span> gv :<span class="k">call</span> VisualSearch<span class="p">(</span><span class="s1">&#39;gv&#39;</span><span class="p">)&lt;</span>CR<span class="p">&gt;</span>
+<span class="lineno">7</span> map <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">g</span> :<span class="k">vimgrep</span> <span class="sr">//</span> **/*.<span class="p">&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;&lt;</span><span class="k">left</span><span class="p">&gt;</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Or run like this</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno"> 1</span> map <span class="p">&lt;</span>F11<span class="p">&gt;</span> :<span class="k">call</span> RunSrc<span class="p">()&lt;</span>CR<span class="p">&gt;</span>
+<span class="lineno"> 2</span> func RunSrc<span class="p">()</span>
+<span class="lineno"> 3</span> exec <span class="s2">&quot;w&quot;</span>
+<span class="lineno"> 4</span> <span class="k">if</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;c&#39;</span>
+<span class="lineno"> 5</span> exec <span class="s2">&quot;!astyle --style=ansi --one-line=keep-statements -a --suffix=none %&quot;</span>
+<span class="lineno"> 6</span> <span class="k">elseif</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;perl&#39;</span>
+<span class="lineno"> 7</span> exec <span class="s2">&quot;!astyle --style=gnu --suffix=none %&quot;</span>
+<span class="lineno"> 8</span> <span class="k">elseif</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;py&#39;</span><span class="p">||</span>&amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;python&#39;</span>
+<span class="lineno"> 9</span> exec <span class="s2">&quot;!python %&quot;</span>
+<span class="lineno">10</span> <span class="k">elseif</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;java&#39;</span>
+<span class="lineno">11</span> exec <span class="s2">&quot;!astyle --style=java --suffix=none %&quot;</span>
+<span class="lineno">12</span> <span class="k">elseif</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;go&#39;</span>
+<span class="lineno">13</span> exec <span class="s2">&quot;!go run %&quot;</span>
+<span class="lineno">14</span> <span class="k">elseif</span> &amp;<span class="k">filetype</span> <span class="p">==</span> <span class="s1">&#39;modula2&#39;</span>
+<span class="lineno">15</span> exec <span class="s2">&quot;!landslide %;xdg-open presentation.html&quot;</span>
+<span class="lineno">16</span> <span class="k">endif</span>
+<span class="lineno">17</span> exec <span class="s2">&quot;e! %&quot;</span>
+<span class="lineno">18</span> endfunc
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Or even Python within Vim</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno"> 1</span> <span class="s">&quot;python block</span>
+<span class="lineno"> 2</span> <span class="n">python</span> <span class="o">&lt;&lt;</span> <span class="n">EOF</span>
+<span class="lineno"> 3</span> <span class="kn">import</span> <span class="nn">vim</span>
+<span class="lineno"> 4</span> <span class="k">def</span> <span class="nf">SetBreakpoint</span><span class="p">():</span>
+<span class="lineno"> 5</span>     <span class="kn">import</span> <span class="nn">re</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span>     <span class="n">nLine</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="n">vim</span><span class="o">.</span><span class="n">eval</span><span class="p">(</span> <span class="s">&#39;line(&quot;.&quot;)&#39;</span><span class="p">))</span>
+<span class="lineno"> 8</span> 
+<span class="lineno"> 9</span>     <span class="n">strLine</span> <span class="o">=</span> <span class="n">vim</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="n">line</span>
+<span class="lineno">10</span>     <span class="n">strWhite</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span> <span class="s">&#39;^(\s*)&#39;</span><span class="p">,</span> <span class="n">strLine</span><span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="lineno">11</span> 
+<span class="lineno">12</span>     <span class="n">vim</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="n">buffer</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+<span class="lineno">13</span>        <span class="s">&quot;</span><span class="si">%(space)s</span><span class="s">ipdb.set_trace() </span><span class="si">%(mark)s</span><span class="s"> Breakpoint </span><span class="si">%(mark)s</span><span class="s">&quot;</span> <span class="o">%</span>
+<span class="lineno">14</span>          <span class="p">{</span><span class="s">&#39;space&#39;</span><span class="p">:</span><span class="n">strWhite</span><span class="p">,</span> <span class="s">&#39;mark&#39;</span><span class="p">:</span> <span class="s">&#39;#&#39;</span> <span class="o">*</span> <span class="mi">30</span><span class="p">},</span> <span class="n">nLine</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+<span class="lineno">15</span> 
+<span class="lineno">16</span>     <span class="k">for</span> <span class="n">strLine</span> <span class="ow">in</span> <span class="n">vim</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="n">buffer</span><span class="p">:</span>
+<span class="lineno">17</span>         <span class="k">if</span> <span class="n">strLine</span> <span class="o">==</span> <span class="s">&quot;import ipdb&quot;</span><span class="p">:</span>
+<span class="lineno">18</span>             <span class="k">break</span>
+<span class="lineno">19</span>     <span class="k">else</span><span class="p">:</span>
+<span class="lineno">20</span>         <span class="n">vim</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="n">buffer</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="s">&#39;import ipdb&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="lineno">21</span>         <span class="n">vim</span><span class="o">.</span><span class="n">command</span><span class="p">(</span> <span class="s">&#39;normal j1&#39;</span><span class="p">)</span>
+</pre></div>
+
+<p>next page...</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            
+            <section><div class="highlight"><pre><span class="lineno"> 1</span> <span class="k">def</span> <span class="nf">RemoveBreakpoints</span><span class="p">():</span>
+<span class="lineno"> 2</span>     <span class="kn">import</span> <span class="nn">re</span>
+<span class="lineno"> 3</span>     <span class="n">nCurrentLine</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="n">vim</span><span class="o">.</span><span class="n">eval</span><span class="p">(</span> <span class="s">&#39;line(&quot;.&quot;)&#39;</span><span class="p">))</span>
+<span class="lineno"> 4</span>     <span class="n">nLines</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="lineno"> 5</span>     <span class="n">nLine</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="lineno"> 6</span>     <span class="k">for</span> <span class="n">strLine</span> <span class="ow">in</span> <span class="n">vim</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="n">buffer</span><span class="p">:</span>
+<span class="lineno"> 7</span>         <span class="k">if</span> <span class="n">strLine</span> <span class="o">==</span> <span class="s">&#39;import ipdb&#39;</span> <span class="ow">or</span> <span class="n">strLine</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()[:</span><span class="mi">15</span><span class="p">]</span> <span class="o">==</span> <span class="s">&#39;ipdb.set_trace()&#39;</span><span class="p">:</span>
+<span class="lineno"> 8</span>             <span class="n">nLines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="n">nLine</span><span class="p">)</span>
+<span class="lineno"> 9</span>         <span class="n">nLine</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="lineno">10</span>     <span class="n">nLines</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="lineno">11</span>     <span class="k">for</span> <span class="n">nLine</span> <span class="ow">in</span> <span class="n">nLines</span><span class="p">:</span>
+<span class="lineno">12</span>         <span class="n">vim</span><span class="o">.</span><span class="n">command</span><span class="p">(</span> <span class="s">&#39;normal </span><span class="si">%d</span><span class="s">G&#39;</span> <span class="o">%</span> <span class="n">nLine</span><span class="p">)</span>
+<span class="lineno">13</span>         <span class="n">vim</span><span class="o">.</span><span class="n">command</span><span class="p">(</span> <span class="s">&#39;normal dd&#39;</span><span class="p">)</span>
+<span class="lineno">14</span>         <span class="k">if</span> <span class="n">nLine</span> <span class="o">&lt;</span> <span class="n">nCurrentLine</span><span class="p">:</span>
+<span class="lineno">15</span>             <span class="n">nCurrentLine</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="lineno">16</span>     <span class="n">vim</span><span class="o">.</span><span class="n">command</span><span class="p">(</span> <span class="s">&#39;normal </span><span class="si">%d</span><span class="s">G&#39;</span> <span class="o">%</span> <span class="n">nCurrentLine</span><span class="p">)</span>
+<span class="lineno">17</span> <span class="n">EOF</span>
+<span class="lineno">18</span> <span class="nb">map</span> <span class="o">&lt;</span><span class="n">F2</span><span class="o">&gt;</span> <span class="p">:</span><span class="n">py</span> <span class="n">RemoveBreakpoints</span><span class="p">()</span><span class="o">&lt;</span><span class="n">cr</span><span class="o">&gt;</span>
+<span class="lineno">19</span> <span class="nb">map</span> <span class="o">&lt;</span><span class="n">F3</span><span class="o">&gt;</span> <span class="p">:</span><span class="n">py</span> <span class="n">SetBreakpoint</span><span class="p">()</span><span class="o">&lt;</span><span class="n">cr</span><span class="o">&gt;</span>
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Now Plugins</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Managing plugins:</h2></header>
+            
+            
+            <section><div class="highlight"><pre><span class="lineno"> 1</span> ├── after
+<span class="lineno"> 2</span> │   ├── ftplugin
+<span class="lineno"> 3</span> │   ├── plugin
+<span class="lineno"> 4</span> │   └── syntax
+<span class="lineno"> 5</span> ├── autoload
+<span class="lineno"> 6</span> │   ├── omni
+<span class="lineno"> 7</span> │   └── xml
+<span class="lineno"> 8</span> ├── bundle
+<span class="lineno"> 9</span> │   ├── go -&gt; /home/wooparadog/Documents/googlecode/go_hg/misc/vim/
+<span class="lineno">10</span> │   ├── gocode -&gt; /home/wooparadog/Documents/github/gocode/vim/
+<span class="lineno">11</span> │   ├── gundo
+<span class="lineno">12</span> │   └── nerdree
+<span class="lineno">13</span> ├── colors
+<span class="lineno">14</span> ├── doc
+<span class="lineno">15</span> ├── ftplugin
+<span class="lineno">16</span> │   └── python
+<span class="lineno">17</span> ├── indent
+<span class="lineno">18</span> ├── plugin
+<span class="lineno">19</span> ├── snippets
+<span class="lineno">20</span> ├── spell
+<span class="lineno">21</span> ├── syntax
+<span class="lineno">22</span> │   └── html
+<span class="lineno">23</span> ├── tags
+<span class="lineno">24</span> └── templates
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide has_code">
+          <div class="inner">
+            
+            <header><h2>Better with Pathogen</h2></header>
+            
+            
+            <section><p><a href="https://github.com/tpope/vim-pathogen">pathogen https://github.com/tpope/vim-pathogen</a></p>
+<div class="highlight"><pre><span class="lineno"> 1</span> bundle/
+<span class="lineno"> 2</span> ├── go -&gt; /home/wooparadog/Documents/googlecode/go_hg/misc/vim/
+<span class="lineno"> 3</span> ├── gocode -&gt; /home/wooparadog/Documents/github/gocode/vim/
+<span class="lineno"> 4</span> ├── gundo
+<span class="lineno"> 5</span> │   ├── autoload
+<span class="lineno"> 6</span> │   ├── doc
+<span class="lineno"> 7</span> │   ├── plugin
+<span class="lineno"> 8</span> │   ├── site
+<span class="lineno"> 9</span> │   └── tests
+<span class="lineno">10</span> └── nerdree
+<span class="lineno">11</span>     ├── doc
+<span class="lineno">12</span>     ├── nerdtree_plugin
+<span class="lineno">13</span>     ├── plugin
+<span class="lineno">14</span>     └── syntax
+</pre></div>
+</section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>For Python</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Ropevim</h2></header>
+            
+            
+            <section><p><em>A vim plugin for using rope python refactoring plugin in vim.</em></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              19/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Refactorings:</h2></header>
+            
+            
+            <section><ul>
+<li>Rename everything!</li>
+<li>Extract method/local variable</li>
+<li>Move class/function/module/package/method</li>
+<li>Inline method/local variable/parameter</li>
+<li>Restructuring </li>
+<li>Introduce factory</li>
+<li>Change method signature</li>
+<li>Transform module to package</li>
+<li>Encapsulate field</li>
+<li>Replace method with method object</li>
+<li>And a few others</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Refactoring Features:</h2></header>
+            
+            
+            <section><ul>
+<li>Extracting similar statements in extract refactorings</li>
+<li>Fixing imports when needed</li>
+<li>Previewing refactorings</li>
+<li>Undo/redo refactorings</li>
+<li>Stopping refactorings</li>
+<li>Cross-project refactorings</li>
+<li>Basic implicit interfaces handling in rename and change signature</li>
+<li>Mercurial, GIT, Darcs and SVN support in refactorings</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              21/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>IDE helpers:</h2></header>
+            
+            
+            <section><ul>
+<li>Auto-completion</li>
+<li>Definition location</li>
+<li>Get pydoc</li>
+<li>Find occurrences</li>
+<li>Organize imports (remove unused and duplicate imports and sort them)</li>
+<li>Generating python elements</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              22/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Object Inference:</h2></header>
+            
+            
+            <section><ul>
+<li>Static and dynamic object analysis</li>
+<li>Handling built-in container types</li>
+<li>Saving object information on disk and validating them</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              23/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Gundo</h2></header>
+            
+            
+            <section><p>Remember revision history</p>
+<p><img alt="Gundo" src="file:///home/wooparadog/Documents/presentation/gundo.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>TabBar</h2></header>
+            
+            
+            <section><p><img alt="TabBar" src="file:///home/wooparadog/Documents/presentation/tabbar.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>TagBar</h2></header>
+            
+            
+            <section><p><img alt="TagBar" src="file:///home/wooparadog/Documents/presentation/tagbar.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              26/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>MR</h2></header>
+            
+            
+            <section><p><img alt="MR" src="file:///home/wooparadog/Documents/presentation/mr.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              27/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: test.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h2>Pylint</h2></header>
+            
+            
+            <section><p><img alt="make" src="file:///home/wooparadog/Documents/presentation/make.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="test.md">test.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              28/28
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">VIM For Python</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-2" class="sub">
+          <th><a href="#slide2">Basics</a></th>
+          <td><a href="#slide2">2</a></td>
+        </tr>
+        
+        <tr id="toc-row-3" class="sub">
+          <th><a href="#slide3">Cheetsheet</a></th>
+          <td><a href="#slide3">3</a></td>
+        </tr>
+        
+        <tr id="toc-row-4" class="sub">
+          <th><a href="#slide4">Auto complete</a></th>
+          <td><a href="#slide4">4</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">For Python</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">Settings</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-7" class="sub">
+          <th><a href="#slide7">Basic Settings:</a></th>
+          <td><a href="#slide7">7</a></td>
+        </tr>
+        
+        <tr id="toc-row-8" class="sub">
+          <th><a href="#slide8">Indent:</a></th>
+          <td><a href="#slide8">8</a></td>
+        </tr>
+        
+        <tr id="toc-row-9" class="sub">
+          <th><a href="#slide9">Useful mapping:</a></th>
+          <td><a href="#slide9">9</a></td>
+        </tr>
+        
+        <tr id="toc-row-10" class="sub">
+          <th><a href="#slide10">Define Function</a></th>
+          <td><a href="#slide10">10</a></td>
+        </tr>
+        
+        <tr id="toc-row-11" class="sub">
+          <th><a href="#slide11">Call Function</a></th>
+          <td><a href="#slide11">11</a></td>
+        </tr>
+        
+        <tr id="toc-row-12" class="sub">
+          <th><a href="#slide12">Or run like this</a></th>
+          <td><a href="#slide12">12</a></td>
+        </tr>
+        
+        <tr id="toc-row-13" class="sub">
+          <th><a href="#slide13">Or even Python within Vim</a></th>
+          <td><a href="#slide13">13</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-14">
+        <th><a href="#slide14">-</a></th>
+        <td><a href="#slide14">14</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">Now Plugins</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-16" class="sub">
+          <th><a href="#slide16">Managing plugins:</a></th>
+          <td><a href="#slide16">16</a></td>
+        </tr>
+        
+        <tr id="toc-row-17" class="sub">
+          <th><a href="#slide17">Better with Pathogen</a></th>
+          <td><a href="#slide17">17</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">For Python</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-19" class="sub">
+          <th><a href="#slide19">Ropevim</a></th>
+          <td><a href="#slide19">19</a></td>
+        </tr>
+        
+        <tr id="toc-row-20" class="sub">
+          <th><a href="#slide20">Refactorings:</a></th>
+          <td><a href="#slide20">20</a></td>
+        </tr>
+        
+        <tr id="toc-row-21" class="sub">
+          <th><a href="#slide21">Refactoring Features:</a></th>
+          <td><a href="#slide21">21</a></td>
+        </tr>
+        
+        <tr id="toc-row-22" class="sub">
+          <th><a href="#slide22">IDE helpers:</a></th>
+          <td><a href="#slide22">22</a></td>
+        </tr>
+        
+        <tr id="toc-row-23" class="sub">
+          <th><a href="#slide23">Object Inference:</a></th>
+          <td><a href="#slide23">23</a></td>
+        </tr>
+        
+        <tr id="toc-row-24" class="sub">
+          <th><a href="#slide24">Gundo</a></th>
+          <td><a href="#slide24">24</a></td>
+        </tr>
+        
+        <tr id="toc-row-25" class="sub">
+          <th><a href="#slide25">TabBar</a></th>
+          <td><a href="#slide25">25</a></td>
+        </tr>
+        
+        <tr id="toc-row-26" class="sub">
+          <th><a href="#slide26">TagBar</a></th>
+          <td><a href="#slide26">26</a></td>
+        </tr>
+        
+        <tr id="toc-row-27" class="sub">
+          <th><a href="#slide27">MR</a></th>
+          <td><a href="#slide27">27</a></td>
+        </tr>
+        
+        <tr id="toc-row-28" class="sub">
+          <th><a href="#slide28">Pylint</a></th>
+          <td><a href="#slide28">28</a></td>
+        </tr>
+        
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
